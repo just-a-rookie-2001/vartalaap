@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'groups',
     'chatMessages',
     'user',
+
+    'phonenumber_field',
 ]
 
 MIDDLEWARE = [
@@ -85,7 +87,6 @@ DATABASES = {
         'PASSWORD': 'root',
         'PORT': 3306,
         'HOST': '127.0.0.1',
-
     }
 }
 
